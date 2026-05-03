@@ -1,0 +1,23 @@
+Title: THC Healthverse Platform — Security and Bug Assessment Report
+Tester: Alois Hwamiridza — THC Ecosystem Manager
+Date of testing: March-April 2026
+Platform: transhumancoin.io Healthverse
+
+Bug 1 — Payment Verification Failure
+What I tested: Purchasing THC Credits through the AI Doctor feature.
+What I found: Transaction confirmed on BNB Chain but platform returned 500 error on verification.
+Impact: Users could lose tokens without receiving credits. Critical trust issue.
+How I reported it: WhatsApp to  Charles with screenshots and transaction hash.
+Outcome: Fixed by Charles and Dev team.
+
+Bug 2 — Invisible Text Input
+What I tested: AI Doctor symptom input field.
+What I found: Text typed by user not visible until Enter pressed.
+Impact: Poor user experience, likely to confuse new users.
+Reported and fixed.
+
+Bug 3 — Decimal Multiplier Error
+What I tested: Buy THC Credits — 100 THC package.
+What I found: MetaMask showed 100,000,000,000 THC ($4.24 million) instead of 100 THC. Transaction flagged as likely to fail.
+Impact: Critical. Feature completely unusable. Root cause — token decimal handling error in smart contract interaction.
+Reported directly to Charles via video call. Fixed same day
