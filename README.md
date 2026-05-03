@@ -1,0 +1,8 @@
+Cybersecurity Portfolio — Alois
+This repository documents my practical cybersecurity work including bug reports, security assessments and hands on testing.
+Current content:
+TranshumanCoin Healthverse — AI Doctor Bug Assessment Report
+Certifications:
+CompTIA Security+ — Passed February 2026
+Currently studying:
+TryHackMe SOC Level 1 path
